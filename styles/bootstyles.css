@@ -1,0 +1,53 @@
+/* David Winn Edited On 4/12/2022 */
+/* class="name" */
+body {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(130, 169, 192));
+}
+
+div {
+    width: 50%;
+    margin: auto;
+}
+
+p {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+  
+li {
+    float: right;
+}
+  
+li a {
+    display: block;
+    padding: 8px;
+    /* background-color: rgb(22, 56, 75); */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.override_BigText {
+    font-size: xx-large;
+    color: white;
+}
+
+.override_None {
+    font-size: none;
+    color: black;
+    font-weight: normal;
+}
